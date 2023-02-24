@@ -1,0 +1,14 @@
+----------------------------------------------------------------------
+Project name              - Smart Matching
+Creation date of log file - 2023-02-16 13:01:44.644675
+----------------------------------------------------------------------
+
+
+[02/16/23 13:01:44] ERROR	(file_one.py:10) - division by zero
+							Traceback (most recent call last):
+							  File "/home/adduser/PythonProjects/LoggingToBlob/file_one.py", line 7, in file_one_funcation
+							    test = a / b
+							ZeroDivisionError: division by zero
+[02/16/23 13:01:44] ERROR	(file_two.py:10) - Here is an ERROR logger!
+[02/16/23 13:01:44] WARNING	(file_two.py:13) - Here is an WARNING logger.
+[02/16/23 13:01:44] INFO	(file_two.py:14) - Here is an INFO logger.
